@@ -1,0 +1,9 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ' in C:\wamp64\www\db_test\db_connect.php:15
+Stack trace:
+#0 C:\wamp64\www\db_test\db_connect.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp64\www\db_test\db_connect.php(33): db->__construct()
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ' in C:\wamp64\www\db_test\db_connect.php:15
+Stack trace:
+#0 C:\wamp64\www\db_test\db_connect.php(15): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp64\www\db_test\db_connect.php(33): db->__construct()
+#2 {main}

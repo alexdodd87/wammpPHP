@@ -24,4 +24,7 @@
 
   require_once('functions.php');
 
+  // Debug info, lists all variables
+  //var_dump($_SERVER);
+
 ?>
